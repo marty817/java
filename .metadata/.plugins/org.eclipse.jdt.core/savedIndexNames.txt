@@ -1,0 +1,15 @@
+INDEX VERSION 1.134+/Users/martinamiraglia/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+849903886.index
+2200650775.index
+1865797976.index
+1737251813.index
+4192783942.index
+554284436.index
+277572467.index
+565182366.index
+2139594043.index
+1488728681.index
+538316778.index
+1585142158.index
+562554590.index
+4096554113.index

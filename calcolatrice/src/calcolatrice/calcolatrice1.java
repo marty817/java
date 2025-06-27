@@ -1,0 +1,42 @@
+package calcolatrice;
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("=== Calcolatrice Semplice ===");
+
+        System.out.print("Inserisci il primo numero: ");
+        double num1 = input.nextDouble();
+
+        System.out.print("Scegli l'operazione (+, -, *, /): ");
+        char operatore = input.next().charAt(0);
+
+        System.out.print("Inserisci il secondo numero: ");
+        double num2 = input.nextDouble();
+
+        double risultato;
+
+        switch (operatore) {
+            case '+':
+                risultato = num1 + num2;
+                break;
+            case '-':
+                risultato = num1 - num2;
+                break;
+            case '*':
+                risultato = num1 * num2;
+                break;
+            case '/':
+                if (num2 == 0) {
+                    System.out.println("Errore: divisione per zero.");
+                    return;
+                }
+                risultato = num1 / num2;
+                break;
+            default:
+                System.out.println("Operatore non valido.");
+                return;
+        }
+
+        System.out.println("Risultato: " + risultato);
+    }
+}

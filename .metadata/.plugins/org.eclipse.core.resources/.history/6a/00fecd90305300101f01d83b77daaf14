@@ -1,0 +1,14 @@
+package prova;
+
+public class eccezione {
+	public class NomiArray {
+	    public static void main(String[] args) {
+	        String[] nomi = { "Mario", "Lucia", "Giovanni", "Anna" };
+
+	        // Stampiamo i nomi
+	        for (int i = 0; i < nomi.length; i++) {
+	            System.out.println("Indice " + i + ": " + nomi[i]);
+	        }
+	    }
+	}
+}

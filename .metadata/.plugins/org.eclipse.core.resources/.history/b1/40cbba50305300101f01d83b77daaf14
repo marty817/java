@@ -1,0 +1,16 @@
+package prova;
+
+public class eccezione {
+	import java.util.Map;
+	    public static void main(String[] args) {
+
+	        // Inserisci i tuoi nomi qui
+	        nomiMap.put("mario", "Mario Rossi");
+	        nomiMap.put("lucia", "Lucia Bianchi");
+	        nomiMap.put("giovanni", "Giovanni Verdi");
+
+	        // Esempio di accesso
+	        System.out.println(nomiMap.get("lucia")); // Stampa: Lucia Bianchi
+	    }
+	}
+}
